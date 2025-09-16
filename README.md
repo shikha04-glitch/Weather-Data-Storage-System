@@ -39,7 +39,3 @@ The system supports inserting, deleting, retrieving, and displaying records, whi
 - Learning ADTs, 2D arrays, and complexity evaluation in C++
 
 ---
-
-## Short Description
-
-*Weather Data Management System 🌤* – Stores and analyzes city temperature records across years with ADTs and 2D arrays, supporting insertion, deletion, retrieval, and traversal.
