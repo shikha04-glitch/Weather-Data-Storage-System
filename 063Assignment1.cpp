@@ -130,7 +130,7 @@ public:
     }
 
     // --- 2D Array Methods ---
-    void insertTemperature() {
+    void populateArray() {
         string year, city, date;
         double temp;
         cin.ignore();
@@ -229,7 +229,7 @@ int main() {
             case 1: system.insertWeatherRecord(); break;
             case 2: system.deleteWeatherRecord(); break;
             case 3: system.retrieveWeatherRecord(); break;
-            case 4: system.insertTemperature(); break;
+            case 4: system.populateArray(); break;
             case 5: system.rowMajorAccess(); break;
             case 6: system.columnMajorAccess(); break;
             case 7: system.handleSparseData(); break;
@@ -240,4 +240,5 @@ int main() {
     } while(choice != 0);
 
     return 0;
+
 }
